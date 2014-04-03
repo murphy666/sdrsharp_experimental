@@ -1,0 +1,7 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.RTLTCP.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.RTLTCP.pdb
+C:\Users\murphy\Downloads\trunk\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.RTLTcpSettings.resources
+C:\Users\murphy\Downloads\trunk\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.dll
+C:\Users\murphy\Downloads\trunk\RTLTCP\obj\x86\Debug\SDRSharp.RTLTCP.pdb

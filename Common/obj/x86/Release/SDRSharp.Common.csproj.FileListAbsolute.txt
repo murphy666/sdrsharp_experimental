@@ -1,0 +1,10 @@
+C:\Users\murphy\Downloads\trunk\Release\SDRSharp.Common.dll
+C:\Users\murphy\Downloads\trunk\Release\SDRSharp.Common.pdb
+C:\Users\murphy\Downloads\trunk\Common\obj\x86\Release\SDRSharp.Common.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\Common\obj\x86\Release\SDRSharp.Common.dll
+C:\Users\murphy\Downloads\trunk\Common\obj\x86\Release\SDRSharp.Common.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\Release\SDRSharp.Common.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\Release\SDRSharp.Common.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\Common\obj\x86\Release\SDRSharp.Common.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\Common\obj\x86\Release\SDRSharp.Common.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\Common\obj\x86\Release\SDRSharp.Common.csprojResolveAssemblyReference.cache

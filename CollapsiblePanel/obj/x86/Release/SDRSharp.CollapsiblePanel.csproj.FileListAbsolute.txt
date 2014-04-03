@@ -1,0 +1,15 @@
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\bin\x86\Release\SDRSharp.CollapsiblePanel.dll
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\bin\x86\Release\SDRSharp.CollapsiblePanel.pdb
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.CollapsiblePanel.resources
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.Properties.Resources.resources
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.dll
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.pdb
+C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\bin\x86\Release\SDRSharp.CollapsiblePanel.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\bin\x86\Release\SDRSharp.CollapsiblePanel.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.CollapsiblePanel.resources
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.Properties.Resources.resources
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.csproj.GenerateResource.Cache
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\CollapsiblePanel\obj\x86\Release\SDRSharp.CollapsiblePanel.pdb

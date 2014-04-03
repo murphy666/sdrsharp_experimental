@@ -1,0 +1,7 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.WavRecorder.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.WavRecorder.pdb
+C:\Users\murphy\Downloads\trunk\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.RecordingPanel.resources
+C:\Users\murphy\Downloads\trunk\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.dll
+C:\Users\murphy\Downloads\trunk\WavRecorder\obj\x86\Debug\SDRSharp.WavRecorder.pdb

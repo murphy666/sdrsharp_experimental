@@ -1,0 +1,14 @@
+C:\Users\murphy\Downloads\trunk\Release\SDRSharp.PanView.dll
+C:\Users\murphy\Downloads\trunk\Release\SDRSharp.PanView.pdb
+C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Release\SDRSharp.PanView.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Release\SDRSharp.PanView.GradientDialog.resources
+C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Release\SDRSharp.PanView.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Release\SDRSharp.PanView.dll
+C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Release\SDRSharp.PanView.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\Release\SDRSharp.PanView.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\Release\SDRSharp.PanView.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\PanView\obj\x86\Release\SDRSharp.PanView.GradientDialog.resources
+C:\Users\murphy\Desktop\Sdrsharp_NG\PanView\obj\x86\Release\SDRSharp.PanView.csproj.GenerateResource.Cache
+C:\Users\murphy\Desktop\Sdrsharp_NG\PanView\obj\x86\Release\SDRSharp.PanView.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\PanView\obj\x86\Release\SDRSharp.PanView.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\PanView\obj\x86\Release\SDRSharp.PanView.csprojResolveAssemblyReference.cache

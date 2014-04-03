@@ -1,0 +1,10 @@
+C:\Users\murphy\Downloads\SourceCode\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\murphy\Downloads\SourceCode\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\murphy\Downloads\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\murphy\Downloads\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\murphy\Downloads\trunk\SDRSharp\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\murphy\Downloads\trunk\SDRSharp\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\murphy\Downloads\trunk\SDRSharp\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\SDRSharp\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\murphy\Downloads\trunk\SDRSharp\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.pdb

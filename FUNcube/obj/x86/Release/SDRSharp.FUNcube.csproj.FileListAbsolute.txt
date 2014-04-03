@@ -1,0 +1,16 @@
+C:\Users\murphy\Downloads\trunk\Release\SDRSharp.FUNcube.dll
+C:\Users\murphy\Downloads\trunk\Release\SDRSharp.FUNcube.pdb
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Release\SDRSharp.FUNcube.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Release\SDRSharp.FUNcube.FCDControllerDialog.resources
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Release\SDRSharp.FUNcube.Properties.Resources.resources
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Release\SDRSharp.FUNcube.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Release\SDRSharp.FUNcube.dll
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Release\SDRSharp.FUNcube.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\Release\SDRSharp.FUNcube.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\Release\SDRSharp.FUNcube.pdb
+C:\Users\murphy\Desktop\Sdrsharp_NG\FUNcube\obj\x86\Release\SDRSharp.FUNcube.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Desktop\Sdrsharp_NG\FUNcube\obj\x86\Release\SDRSharp.FUNcube.FCDControllerDialog.resources
+C:\Users\murphy\Desktop\Sdrsharp_NG\FUNcube\obj\x86\Release\SDRSharp.FUNcube.Properties.Resources.resources
+C:\Users\murphy\Desktop\Sdrsharp_NG\FUNcube\obj\x86\Release\SDRSharp.FUNcube.csproj.GenerateResource.Cache
+C:\Users\murphy\Desktop\Sdrsharp_NG\FUNcube\obj\x86\Release\SDRSharp.FUNcube.dll
+C:\Users\murphy\Desktop\Sdrsharp_NG\FUNcube\obj\x86\Release\SDRSharp.FUNcube.pdb

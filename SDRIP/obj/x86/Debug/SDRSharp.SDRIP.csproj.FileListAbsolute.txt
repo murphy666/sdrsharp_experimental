@@ -1,0 +1,6 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.SDRIP.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.SDRIP.pdb
+C:\Users\murphy\Downloads\trunk\SDRIP\obj\x86\Debug\SDRSharp.SDRIP.SDRIPClientDialog.resources
+C:\Users\murphy\Downloads\trunk\SDRIP\obj\x86\Debug\SDRSharp.SDRIP.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\SDRIP\obj\x86\Debug\SDRSharp.SDRIP.dll
+C:\Users\murphy\Downloads\trunk\SDRIP\obj\x86\Debug\SDRSharp.SDRIP.pdb

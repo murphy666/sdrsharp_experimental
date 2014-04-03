@@ -1,0 +1,8 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.FUNcube.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.FUNcube.pdb
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.FCDControllerDialog.resources
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.Properties.Resources.resources
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.dll
+C:\Users\murphy\Downloads\trunk\FUNcube\obj\x86\Debug\SDRSharp.FUNcube.pdb

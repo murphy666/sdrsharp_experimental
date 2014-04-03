@@ -1,0 +1,6 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.FrequencyEdit.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.FrequencyEdit.pdb
+C:\Users\murphy\Downloads\trunk\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.Properties.Resources.resources
+C:\Users\murphy\Downloads\trunk\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.dll
+C:\Users\murphy\Downloads\trunk\FrequencyEdit\obj\x86\Debug\SDRSharp.FrequencyEdit.pdb

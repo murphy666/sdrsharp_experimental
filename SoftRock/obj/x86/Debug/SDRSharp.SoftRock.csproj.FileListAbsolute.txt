@@ -1,0 +1,5 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.SoftRock.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.SoftRock.pdb
+C:\Users\murphy\Downloads\trunk\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.csprojResolveAssemblyReference.cache
+C:\Users\murphy\Downloads\trunk\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.dll
+C:\Users\murphy\Downloads\trunk\SoftRock\obj\x86\Debug\SDRSharp.SoftRock.pdb

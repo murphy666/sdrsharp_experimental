@@ -1,0 +1,7 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.HackRF.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.HackRF.pdb
+C:\Users\murphy\Downloads\trunk\HackRF\obj\x86\Debug\SDRSharp.HackRF.HackRFControllerDialog.resources
+C:\Users\murphy\Downloads\trunk\HackRF\obj\x86\Debug\SDRSharp.HackRF.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\HackRF\obj\x86\Debug\SDRSharp.HackRF.dll
+C:\Users\murphy\Downloads\trunk\HackRF\obj\x86\Debug\SDRSharp.HackRF.pdb
+C:\Users\murphy\Downloads\trunk\HackRF\obj\x86\Debug\SDRSharp.HackRF.csprojResolveAssemblyReference.cache

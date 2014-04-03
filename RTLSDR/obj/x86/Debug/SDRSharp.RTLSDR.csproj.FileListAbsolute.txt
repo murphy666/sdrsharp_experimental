@@ -1,0 +1,7 @@
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.RTLSDR.dll
+C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.RTLSDR.pdb
+C:\Users\murphy\Downloads\trunk\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.Properties.Resources.resources
+C:\Users\murphy\Downloads\trunk\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.RtlSdrControllerDialog.resources
+C:\Users\murphy\Downloads\trunk\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.csproj.GenerateResource.Cache
+C:\Users\murphy\Downloads\trunk\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.dll
+C:\Users\murphy\Downloads\trunk\RTLSDR\obj\x86\Debug\SDRSharp.RTLSDR.pdb
