@@ -2317,7 +2317,7 @@ namespace SDRSharp
             /*s and S = ZOOM OUT */
             if (e.KeyCode == Keys.S)
             {
-                if (fftZoomTrackBar.Value >= 0)
+                if (fftZoomTrackBar.Value >= 1)
                 {
                     fftZoomTrackBar.Value = fftZoomTrackBar.Value - 1;
                 }
