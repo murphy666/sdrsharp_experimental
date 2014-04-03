@@ -142,7 +142,7 @@ namespace SDRSharp
             this.label24 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.displayCollapsiblePanel = new SDRSharp.CollapsiblePanel.CollapsiblePanel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.controlPanel = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.vfoFrequencyEdit = new SDRSharp.FrequencyEdit.FrequencyEdit();
             this.button2 = new System.Windows.Forms.Button();
@@ -1830,7 +1830,7 @@ namespace SDRSharp
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.displayCollapsiblePanel);
-            this.tabPage7.Controls.Add(this.panel4);
+            this.tabPage7.Controls.Add(this.controlPanel);
             this.tabPage7.Location = new System.Drawing.Point(4, 25);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Size = new System.Drawing.Size(1210, 78);
@@ -1841,7 +1841,7 @@ namespace SDRSharp
             // displayCollapsiblePanel
             // 
             this.displayCollapsiblePanel.ExpandedHeight = 350;
-            this.displayCollapsiblePanel.Location = new System.Drawing.Point(4, 4);
+            this.displayCollapsiblePanel.Location = new System.Drawing.Point(65, 11);
             this.displayCollapsiblePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.displayCollapsiblePanel.Name = "displayCollapsiblePanel";
             this.displayCollapsiblePanel.NextPanel = null;
@@ -1849,17 +1849,18 @@ namespace SDRSharp
             this.displayCollapsiblePanel.Size = new System.Drawing.Size(975, 375);
             this.displayCollapsiblePanel.TabIndex = 0;
             // 
-            // panel4
+            // controlPanel
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.controlPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.AutoScroll = true;
-            this.panel4.AutoSize = true;
-            this.panel4.Location = new System.Drawing.Point(6, 13);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1023, 415);
-            this.panel4.TabIndex = 1;
+            this.controlPanel.AutoScroll = true;
+            this.controlPanel.AutoSize = true;
+            this.controlPanel.Location = new System.Drawing.Point(6, 13);
+            this.controlPanel.Name = "controlPanel";
+            this.controlPanel.Size = new System.Drawing.Size(1023, 415);
+            this.controlPanel.TabIndex = 1;
+            this.controlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // imageList1
             // 
@@ -2173,6 +2174,6 @@ namespace SDRSharp
         private Label label43;
         private TabPage tabPage7;
         private CollapsiblePanel.CollapsiblePanel displayCollapsiblePanel;
-        private Panel panel4;
+        private Panel controlPanel;
     }
 }
