@@ -1,4 +1,4 @@
 sdrsharp_experimental
 =====================
 
-Experimental sdrsharp witg a different GUI.
+My repo for a custom sdrsharp

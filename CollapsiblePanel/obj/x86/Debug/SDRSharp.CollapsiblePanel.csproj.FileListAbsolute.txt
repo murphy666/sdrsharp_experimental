@@ -1,7 +1,0 @@
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\bin\x86\Debug\SDRSharp.CollapsiblePanel.dll
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\bin\x86\Debug\SDRSharp.CollapsiblePanel.pdb
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.CollapsiblePanel.resources
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.Properties.Resources.resources
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.csproj.GenerateResource.Cache
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.dll
-C:\Users\murphy\Downloads\trunk\CollapsiblePanel\obj\x86\Debug\SDRSharp.CollapsiblePanel.pdb

@@ -1,6 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.NoiseBlanker.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.NoiseBlanker.pdb
-C:\Users\murphy\Downloads\trunk\NoiseBlanker\obj\x86\Debug\SDRSharp.NoiseBlanker.ProcessorPanel.resources
-C:\Users\murphy\Downloads\trunk\NoiseBlanker\obj\x86\Debug\SDRSharp.NoiseBlanker.csproj.GenerateResource.Cache
-C:\Users\murphy\Downloads\trunk\NoiseBlanker\obj\x86\Debug\SDRSharp.NoiseBlanker.dll
-C:\Users\murphy\Downloads\trunk\NoiseBlanker\obj\x86\Debug\SDRSharp.NoiseBlanker.pdb

@@ -1,6 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.DNR.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.DNR.pdb
-C:\Users\murphy\Downloads\trunk\DNR\obj\x86\Debug\SDRSharp.DNR.ProcessorPanel.resources
-C:\Users\murphy\Downloads\trunk\DNR\obj\x86\Debug\SDRSharp.DNR.csproj.GenerateResource.Cache
-C:\Users\murphy\Downloads\trunk\DNR\obj\x86\Debug\SDRSharp.DNR.dll
-C:\Users\murphy\Downloads\trunk\DNR\obj\x86\Debug\SDRSharp.DNR.pdb

@@ -1,9 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.FrequencyManager.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.FrequencyManager.pdb
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csprojResolveAssemblyReference.cache
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.DialogEntryInfo.resources
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.FrequencyManagerPanel.resources
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.Properties.Resources.resources
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.csproj.GenerateResource.Cache
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.dll
-C:\Users\murphy\Downloads\trunk\FrequencyManager\obj\x86\Debug\SDRSharp.FrequencyManager.pdb

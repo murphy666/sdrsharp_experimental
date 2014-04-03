@@ -1,7 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.PanView.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.PanView.pdb
-C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Debug\SDRSharp.PanView.csprojResolveAssemblyReference.cache
-C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Debug\SDRSharp.PanView.GradientDialog.resources
-C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Debug\SDRSharp.PanView.csproj.GenerateResource.Cache
-C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Debug\SDRSharp.PanView.dll
-C:\Users\murphy\Downloads\trunk\PanView\obj\x86\Debug\SDRSharp.PanView.pdb

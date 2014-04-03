@@ -1,6 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.SDRIQ.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.SDRIQ.pdb
-C:\Users\murphy\Downloads\trunk\SDRIQ\obj\x86\Debug\SDRSharp.SDRIQ.SDRIQControllerDialog.resources
-C:\Users\murphy\Downloads\trunk\SDRIQ\obj\x86\Debug\SDRSharp.SDRIQ.csproj.GenerateResource.Cache
-C:\Users\murphy\Downloads\trunk\SDRIQ\obj\x86\Debug\SDRSharp.SDRIQ.dll
-C:\Users\murphy\Downloads\trunk\SDRIQ\obj\x86\Debug\SDRSharp.SDRIQ.pdb

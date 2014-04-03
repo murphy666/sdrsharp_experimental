@@ -1,5 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.Common.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.Common.pdb
-C:\Users\murphy\Downloads\trunk\Common\obj\x86\Debug\SDRSharp.Common.csprojResolveAssemblyReference.cache
-C:\Users\murphy\Downloads\trunk\Common\obj\x86\Debug\SDRSharp.Common.dll
-C:\Users\murphy\Downloads\trunk\Common\obj\x86\Debug\SDRSharp.Common.pdb

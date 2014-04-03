@@ -1,4 +1,0 @@
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.Radio.dll
-C:\Users\murphy\Downloads\trunk\Debug\SDRSharp.Radio.pdb
-C:\Users\murphy\Downloads\trunk\Radio\obj\x86\Debug\SDRSharp.Radio.dll
-C:\Users\murphy\Downloads\trunk\Radio\obj\x86\Debug\SDRSharp.Radio.pdb

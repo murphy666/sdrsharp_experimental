@@ -1,5 +1,0 @@
-C:\Users\murphy\Downloads\windowsribbon-70298\Ribbon\bin\Debug\Ribbon.dll
-C:\Users\murphy\Downloads\windowsribbon-70298\Ribbon\bin\Debug\Ribbon.pdb
-C:\Users\murphy\Downloads\windowsribbon-70298\Ribbon\obj\Debug\Ribbon.csprojResolveAssemblyReference.cache
-C:\Users\murphy\Downloads\windowsribbon-70298\Ribbon\obj\Debug\Ribbon.dll
-C:\Users\murphy\Downloads\windowsribbon-70298\Ribbon\obj\Debug\Ribbon.pdb
