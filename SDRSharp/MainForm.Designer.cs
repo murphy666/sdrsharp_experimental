@@ -404,6 +404,7 @@ namespace SDRSharp
             this.unityGainCheckBox.TabIndex = 5;
             this.unityGainCheckBox.Text = "Unity Gain";
             this.unityGainCheckBox.UseVisualStyleBackColor = true;
+            this.unityGainCheckBox.CheckedChanged += new System.EventHandler(this.unityGainCheckBox_CheckedChanged);
             this.unityGainCheckBox.CheckStateChanged += new System.EventHandler(this.unityGainCheckBox_CheckStateChanged);
             // 
             // latencyNumericUpDown
@@ -1213,6 +1214,7 @@ namespace SDRSharp
             this.agcUseHangCheckBox.TabIndex = 32;
             this.agcUseHangCheckBox.Text = "Use Hang";
             this.agcUseHangCheckBox.UseVisualStyleBackColor = true;
+            this.agcUseHangCheckBox.CheckedChanged += new System.EventHandler(this.agcUseHangCheckBox_CheckedChanged);
             // 
             // agcSlopeNumericUpDown
             // 
@@ -1231,6 +1233,7 @@ namespace SDRSharp
             0,
             0,
             0});
+            this.agcSlopeNumericUpDown.ValueChanged += new System.EventHandler(this.agcSlopeNumericUpDown_ValueChanged);
             // 
             // label22
             // 
@@ -1250,6 +1253,7 @@ namespace SDRSharp
             this.agcCheckBox.TabIndex = 31;
             this.agcCheckBox.Text = "Use AGC";
             this.agcCheckBox.UseVisualStyleBackColor = true;
+            this.agcCheckBox.CheckedChanged += new System.EventHandler(this.agcCheckBox_CheckedChanged);
             // 
             // label10
             // 
@@ -1300,6 +1304,7 @@ namespace SDRSharp
             0,
             0,
             0});
+            this.agcDecayNumericUpDown.ValueChanged += new System.EventHandler(this.agcDecayNumericUpDown_ValueChanged);
             // 
             // label4
             // 
@@ -1858,7 +1863,7 @@ namespace SDRSharp
             this.controlPanel.AutoSize = true;
             this.controlPanel.Location = new System.Drawing.Point(6, 13);
             this.controlPanel.Name = "controlPanel";
-            this.controlPanel.Size = new System.Drawing.Size(1023, 415);
+            this.controlPanel.Size = new System.Drawing.Size(1044, 415);
             this.controlPanel.TabIndex = 1;
             this.controlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 

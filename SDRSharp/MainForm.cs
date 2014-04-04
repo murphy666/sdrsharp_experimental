@@ -2384,5 +2384,10 @@ namespace SDRSharp
         {
 
         }
+
+        private void unityGainCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
