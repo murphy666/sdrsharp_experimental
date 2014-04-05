@@ -2181,22 +2181,7 @@ namespace SDRSharp
 
         private void PlayBtn_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (_streamControl.IsPlaying)
-                {
-                    StopRadio();
-                }
-                else
-                {
-                    StartRadio();
-                }
-            }
-            catch (Exception ex)
-            {
-                StopRadio();
-                MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
         }
 
         private void label25_Click(object sender, EventArgs e)
@@ -2487,6 +2472,39 @@ namespace SDRSharp
             lsbRadioButton.Checked = false;
             usbRadioButton.Checked = false;
             nfmRadioButton.Checked = false;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_MouseClick(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                if (_streamControl.IsPlaying)
+                {
+                    StopRadio();
+                    panel4.BackgroundImage = ((System.Drawing.Image)(Properties.Resources.media_playback_start));
+                }
+                else
+                {
+                    StartRadio();
+                    panel4.BackgroundImage = ((System.Drawing.Image)(Properties.Resources.media_playback_stop));
+                }
+            }
+            catch (Exception ex)
+            {
+                StopRadio();
+                panel4.BackgroundImage = ((System.Drawing.Image)(Properties.Resources.media_playback_start));
+                MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

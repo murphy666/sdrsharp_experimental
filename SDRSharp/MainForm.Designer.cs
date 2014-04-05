@@ -144,26 +144,26 @@ namespace SDRSharp
             this.displayCollapsiblePanel = new SDRSharp.CollapsiblePanel.CollapsiblePanel();
             this.controlPanel = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.RecordBtn = new System.Windows.Forms.Button();
-            this.PlayBtn = new System.Windows.Forms.Button();
             this.vfoFrequencyEdit = new SDRSharp.FrequencyEdit.FrequencyEdit();
+            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonButtonList1 = new System.Windows.Forms.RibbonButtonList();
+            this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton7 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton8 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton9 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButtonList2 = new System.Windows.Forms.RibbonButtonList();
+            this.ribbonButton10 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton11 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton12 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton13 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton14 = new System.Windows.Forms.RibbonButton();
             this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonButton1 = new System.Windows.Forms.RibbonButton();
-            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
-            this.ribbonButton9 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton8 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton7 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButtonList1 = new System.Windows.Forms.RibbonButtonList();
-            this.ribbonButton14 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton13 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton12 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton11 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton10 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButtonList2 = new System.Windows.Forms.RibbonButtonList();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.panSplitContainer.Panel1.SuspendLayout();
             this.panSplitContainer.Panel2.SuspendLayout();
             this.panSplitContainer.SuspendLayout();
@@ -223,7 +223,7 @@ namespace SDRSharp
             this.panSplitContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panSplitContainer.Location = new System.Drawing.Point(2, 114);
+            this.panSplitContainer.Location = new System.Drawing.Point(2, 101);
             this.panSplitContainer.Name = "panSplitContainer";
             this.panSplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -237,8 +237,8 @@ namespace SDRSharp
             // 
             this.panSplitContainer.Panel2.Controls.Add(this.waterfall);
             this.panSplitContainer.Panel2MinSize = 10;
-            this.panSplitContainer.Size = new System.Drawing.Size(1297, 667);
-            this.panSplitContainer.SplitterDistance = 156;
+            this.panSplitContainer.Size = new System.Drawing.Size(1297, 680);
+            this.panSplitContainer.SplitterDistance = 294;
             this.panSplitContainer.TabIndex = 13;
             // 
             // spectrumAnalyzer
@@ -257,7 +257,7 @@ namespace SDRSharp
             this.spectrumAnalyzer.Location = new System.Drawing.Point(0, 0);
             this.spectrumAnalyzer.MarkPeaks = false;
             this.spectrumAnalyzer.Name = "spectrumAnalyzer";
-            this.spectrumAnalyzer.Size = new System.Drawing.Size(1297, 156);
+            this.spectrumAnalyzer.Size = new System.Drawing.Size(1297, 294);
             this.spectrumAnalyzer.SpectrumWidth = 48000;
             this.spectrumAnalyzer.StatusText = null;
             this.spectrumAnalyzer.StepSize = 1000;
@@ -301,7 +301,7 @@ namespace SDRSharp
             this.waterfall.Frequency = ((long)(0));
             this.waterfall.Location = new System.Drawing.Point(0, 0);
             this.waterfall.Name = "waterfall";
-            this.waterfall.Size = new System.Drawing.Size(1297, 507);
+            this.waterfall.Size = new System.Drawing.Size(1297, 382);
             this.waterfall.SpectrumWidth = 48000;
             this.waterfall.StepSize = 0;
             this.waterfall.TabIndex = 0;
@@ -313,8 +313,6 @@ namespace SDRSharp
             this.waterfall.FrequencyChanged += new SDRSharp.PanView.ManualFrequencyChange(this.panview_FrequencyChanged);
             this.waterfall.CenterFrequencyChanged += new SDRSharp.PanView.ManualFrequencyChange(this.panview_CenterFrequencyChanged);
             this.waterfall.BandwidthChanged += new SDRSharp.PanView.ManualBandwidthChange(this.panview_BandwidthChanged);
-            this.waterfall.Load += new System.EventHandler(this.waterfall_Load);
-            this.waterfall.MouseClick += new System.Windows.Forms.MouseEventHandler(this.waterfall_MouseClick);
             // 
             // contextMenuStrip1
             // 
@@ -472,12 +470,12 @@ namespace SDRSharp
             // 
             // audioGainTrackBar
             // 
-            this.audioGainTrackBar.Location = new System.Drawing.Point(187, 71);
+            this.audioGainTrackBar.Location = new System.Drawing.Point(164, 61);
             this.audioGainTrackBar.Maximum = 40;
             this.audioGainTrackBar.Minimum = 15;
             this.audioGainTrackBar.Name = "audioGainTrackBar";
             this.audioGainTrackBar.RightToLeftLayout = true;
-            this.audioGainTrackBar.Size = new System.Drawing.Size(138, 56);
+            this.audioGainTrackBar.Size = new System.Drawing.Size(156, 56);
             this.audioGainTrackBar.TabIndex = 0;
             this.audioGainTrackBar.TickFrequency = 5;
             this.audioGainTrackBar.Value = 30;
@@ -506,7 +504,7 @@ namespace SDRSharp
             0,
             -2147483648});
             this.FrequencyUpDown.Name = "FrequencyUpDown";
-            this.FrequencyUpDown.Size = new System.Drawing.Size(255, 49);
+            this.FrequencyUpDown.Size = new System.Drawing.Size(269, 49);
             this.FrequencyUpDown.TabIndex = 34;
             this.FrequencyUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.FrequencyUpDown.ThousandsSeparator = true;
@@ -527,7 +525,7 @@ namespace SDRSharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(263, 30);
+            this.label2.Location = new System.Drawing.Point(275, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 32);
             this.label2.TabIndex = 35;
@@ -538,11 +536,11 @@ namespace SDRSharp
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(239, 94);
+            this.label9.Location = new System.Drawing.Point(229, 82);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 17);
+            this.label9.Size = new System.Drawing.Size(28, 17);
             this.label9.TabIndex = 37;
-            this.label9.Text = "Gain";
+            this.label9.Text = "Vol";
             // 
             // tabControl1
             // 
@@ -556,16 +554,16 @@ namespace SDRSharp
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.ImageList = this.imageList1;
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tabControl1.Location = new System.Drawing.Point(322, 1);
+            this.tabControl1.Location = new System.Drawing.Point(326, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1218, 107);
+            this.tabControl1.Size = new System.Drawing.Size(1218, 98);
             this.tabControl1.TabIndex = 40;
             // 
             // tabPage1
             // 
             this.tabPage1.AutoScroll = true;
-            this.tabPage1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage1.BackColor = System.Drawing.Color.Transparent;
             this.tabPage1.Controls.Add(this.rawRadioButton);
             this.tabPage1.Controls.Add(this.dsbRadioButton);
             this.tabPage1.Controls.Add(this.cwRadioButton);
@@ -588,9 +586,10 @@ namespace SDRSharp
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage1.Size = new System.Drawing.Size(1210, 69);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Receiver";
+            this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // rawRadioButton
@@ -598,8 +597,9 @@ namespace SDRSharp
             this.rawRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.rawRadioButton.AutoSize = true;
             this.rawRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.rawRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rawRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.rawRadioButton.Location = new System.Drawing.Point(174, 40);
+            this.rawRadioButton.Location = new System.Drawing.Point(174, 35);
             this.rawRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.rawRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.rawRadioButton.Name = "rawRadioButton";
@@ -616,8 +616,9 @@ namespace SDRSharp
             this.dsbRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.dsbRadioButton.AutoSize = true;
             this.dsbRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.dsbRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dsbRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dsbRadioButton.Location = new System.Drawing.Point(118, 40);
+            this.dsbRadioButton.Location = new System.Drawing.Point(118, 35);
             this.dsbRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.dsbRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.dsbRadioButton.Name = "dsbRadioButton";
@@ -634,8 +635,9 @@ namespace SDRSharp
             this.cwRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.cwRadioButton.AutoSize = true;
             this.cwRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cwRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cwRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cwRadioButton.Location = new System.Drawing.Point(63, 40);
+            this.cwRadioButton.Location = new System.Drawing.Point(63, 35);
             this.cwRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.cwRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.cwRadioButton.Name = "cwRadioButton";
@@ -652,8 +654,9 @@ namespace SDRSharp
             this.wfmRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.wfmRadioButton.AutoSize = true;
             this.wfmRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.wfmRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wfmRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.wfmRadioButton.Location = new System.Drawing.Point(8, 40);
+            this.wfmRadioButton.Location = new System.Drawing.Point(8, 35);
             this.wfmRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.wfmRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.wfmRadioButton.Name = "wfmRadioButton";
@@ -670,8 +673,9 @@ namespace SDRSharp
             this.usbRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.usbRadioButton.AutoSize = true;
             this.usbRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.usbRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usbRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.usbRadioButton.Location = new System.Drawing.Point(174, 11);
+            this.usbRadioButton.Location = new System.Drawing.Point(174, 6);
             this.usbRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.usbRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.usbRadioButton.Name = "usbRadioButton";
@@ -688,8 +692,9 @@ namespace SDRSharp
             this.lsbRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.lsbRadioButton.AutoSize = true;
             this.lsbRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lsbRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsbRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lsbRadioButton.Location = new System.Drawing.Point(118, 11);
+            this.lsbRadioButton.Location = new System.Drawing.Point(118, 6);
             this.lsbRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.lsbRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.lsbRadioButton.Name = "lsbRadioButton";
@@ -706,8 +711,9 @@ namespace SDRSharp
             this.amRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.amRadioButton.AutoSize = true;
             this.amRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.amRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.amRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.amRadioButton.Location = new System.Drawing.Point(63, 11);
+            this.amRadioButton.Location = new System.Drawing.Point(63, 6);
             this.amRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.amRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.amRadioButton.Name = "amRadioButton";
@@ -726,8 +732,9 @@ namespace SDRSharp
             this.nfmRadioButton.FlatAppearance.BorderSize = 2;
             this.nfmRadioButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.nfmRadioButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.nfmRadioButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nfmRadioButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.nfmRadioButton.Location = new System.Drawing.Point(8, 11);
+            this.nfmRadioButton.Location = new System.Drawing.Point(8, 6);
             this.nfmRadioButton.MaximumSize = new System.Drawing.Size(50, 27);
             this.nfmRadioButton.MinimumSize = new System.Drawing.Size(50, 27);
             this.nfmRadioButton.Name = "nfmRadioButton";
@@ -745,15 +752,15 @@ namespace SDRSharp
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.filterBandwidthNumericUpDown);
             this.panel3.Controls.Add(this.stepSizeComboBox);
-            this.panel3.Location = new System.Drawing.Point(230, 10);
+            this.panel3.Location = new System.Drawing.Point(230, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(181, 57);
+            this.panel3.Size = new System.Drawing.Size(164, 57);
             this.panel3.TabIndex = 34;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(18, 35);
+            this.label18.Location = new System.Drawing.Point(18, 36);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(40, 17);
             this.label18.TabIndex = 30;
@@ -763,7 +770,7 @@ namespace SDRSharp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 6);
+            this.label1.Location = new System.Drawing.Point(1, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 16;
@@ -777,7 +784,7 @@ namespace SDRSharp
             0,
             0,
             0});
-            this.filterBandwidthNumericUpDown.Location = new System.Drawing.Point(87, 4);
+            this.filterBandwidthNumericUpDown.Location = new System.Drawing.Point(73, 4);
             this.filterBandwidthNumericUpDown.Maximum = new decimal(new int[] {
             250000,
             0,
@@ -803,7 +810,7 @@ namespace SDRSharp
             // 
             this.stepSizeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.stepSizeComboBox.FormattingEnabled = true;
-            this.stepSizeComboBox.Location = new System.Drawing.Point(87, 32);
+            this.stepSizeComboBox.Location = new System.Drawing.Point(73, 31);
             this.stepSizeComboBox.Name = "stepSizeComboBox";
             this.stepSizeComboBox.Size = new System.Drawing.Size(88, 24);
             this.stepSizeComboBox.TabIndex = 21;
@@ -812,7 +819,7 @@ namespace SDRSharp
             // squelchNumericUpDown
             // 
             this.squelchNumericUpDown.Enabled = false;
-            this.squelchNumericUpDown.Location = new System.Drawing.Point(662, 13);
+            this.squelchNumericUpDown.Location = new System.Drawing.Point(668, 7);
             this.squelchNumericUpDown.Name = "squelchNumericUpDown";
             this.squelchNumericUpDown.Size = new System.Drawing.Size(51, 22);
             this.squelchNumericUpDown.TabIndex = 18;
@@ -821,7 +828,7 @@ namespace SDRSharp
             // 
             // useSquelchCheckBox
             // 
-            this.useSquelchCheckBox.Location = new System.Drawing.Point(585, 12);
+            this.useSquelchCheckBox.Location = new System.Drawing.Point(591, 5);
             this.useSquelchCheckBox.Name = "useSquelchCheckBox";
             this.useSquelchCheckBox.Size = new System.Drawing.Size(83, 26);
             this.useSquelchCheckBox.TabIndex = 17;
@@ -832,7 +839,7 @@ namespace SDRSharp
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(594, 45);
+            this.label15.Location = new System.Drawing.Point(600, 42);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(62, 17);
             this.label15.TabIndex = 32;
@@ -842,7 +849,7 @@ namespace SDRSharp
             // fmStereoCheckBox
             // 
             this.fmStereoCheckBox.Enabled = false;
-            this.fmStereoCheckBox.Location = new System.Drawing.Point(449, 44);
+            this.fmStereoCheckBox.Location = new System.Drawing.Point(455, 40);
             this.fmStereoCheckBox.Name = "fmStereoCheckBox";
             this.fmStereoCheckBox.Size = new System.Drawing.Size(113, 20);
             this.fmStereoCheckBox.TabIndex = 24;
@@ -853,7 +860,7 @@ namespace SDRSharp
             // cwShiftNumericUpDown
             // 
             this.cwShiftNumericUpDown.Enabled = false;
-            this.cwShiftNumericUpDown.Location = new System.Drawing.Point(662, 43);
+            this.cwShiftNumericUpDown.Location = new System.Drawing.Point(668, 40);
             this.cwShiftNumericUpDown.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -878,7 +885,7 @@ namespace SDRSharp
             // frequencyShiftCheckBox
             // 
             this.frequencyShiftCheckBox.AutoSize = true;
-            this.frequencyShiftCheckBox.Location = new System.Drawing.Point(449, 14);
+            this.frequencyShiftCheckBox.Location = new System.Drawing.Point(455, 7);
             this.frequencyShiftCheckBox.Name = "frequencyShiftCheckBox";
             this.frequencyShiftCheckBox.Size = new System.Drawing.Size(130, 21);
             this.frequencyShiftCheckBox.TabIndex = 10;
@@ -892,7 +899,7 @@ namespace SDRSharp
             this.iqSourceComboBox.DropDownWidth = 135;
             this.iqSourceComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iqSourceComboBox.FormattingEnabled = true;
-            this.iqSourceComboBox.Location = new System.Drawing.Point(773, 24);
+            this.iqSourceComboBox.Location = new System.Drawing.Point(769, 11);
             this.iqSourceComboBox.Name = "iqSourceComboBox";
             this.iqSourceComboBox.Size = new System.Drawing.Size(143, 28);
             this.iqSourceComboBox.TabIndex = 2;
@@ -902,7 +909,7 @@ namespace SDRSharp
             // 
             this.configureSourceButton.FlatAppearance.BorderSize = 0;
             this.configureSourceButton.Image = global::SDRSharp.Properties.Resources.configure_4;
-            this.configureSourceButton.Location = new System.Drawing.Point(932, 18);
+            this.configureSourceButton.Location = new System.Drawing.Point(932, 9);
             this.configureSourceButton.Name = "configureSourceButton";
             this.configureSourceButton.Size = new System.Drawing.Size(41, 35);
             this.configureSourceButton.TabIndex = 3;
@@ -912,6 +919,7 @@ namespace SDRSharp
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.MemFreq7);
             this.tabPage2.Controls.Add(this.MemFreq8);
             this.tabPage2.Controls.Add(this.MemFreq9);
@@ -936,10 +944,9 @@ namespace SDRSharp
             this.tabPage2.ImageIndex = 5;
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage2.Size = new System.Drawing.Size(1210, 69);
             this.tabPage2.TabIndex = 6;
             this.tabPage2.Text = "Bookmarks";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // MemFreq7
             // 
@@ -1184,7 +1191,7 @@ namespace SDRSharp
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage3.Controls.Add(this.label16);
             this.tabPage3.Controls.Add(this.filterTypeComboBox);
             this.tabPage3.Controls.Add(this.filterOrderNumericUpDown);
@@ -1206,7 +1213,7 @@ namespace SDRSharp
             this.tabPage3.ImageIndex = 2;
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage3.Size = new System.Drawing.Size(1210, 69);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Audio";
             // 
@@ -1388,7 +1395,7 @@ namespace SDRSharp
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage4.Controls.Add(this.label43);
             this.tabPage4.Controls.Add(this.ScanDb);
             this.tabPage4.Controls.Add(this.label3);
@@ -1403,7 +1410,7 @@ namespace SDRSharp
             this.tabPage4.ImageIndex = 3;
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage4.Size = new System.Drawing.Size(1210, 69);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Configuration";
             // 
@@ -1495,7 +1502,7 @@ namespace SDRSharp
             // 
             // tabPage5
             // 
-            this.tabPage5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage5.Controls.Add(this.label7);
             this.tabPage5.Controls.Add(this.viewComboBox);
             this.tabPage5.Controls.Add(this.fftWindowComboBox);
@@ -1509,7 +1516,7 @@ namespace SDRSharp
             this.tabPage5.ImageIndex = 1;
             this.tabPage5.Location = new System.Drawing.Point(4, 25);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage5.Size = new System.Drawing.Size(1210, 69);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Display";
             // 
@@ -1639,7 +1646,7 @@ namespace SDRSharp
             // 
             // tabPage6
             // 
-            this.tabPage6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage6.Controls.Add(this.panel2);
             this.tabPage6.Controls.Add(this.panel1);
             this.tabPage6.Controls.Add(this.sAttackTrackBar);
@@ -1655,7 +1662,7 @@ namespace SDRSharp
             this.tabPage6.ImageIndex = 4;
             this.tabPage6.Location = new System.Drawing.Point(4, 25);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage6.Size = new System.Drawing.Size(1210, 69);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "FFT";
             // 
@@ -1754,7 +1761,7 @@ namespace SDRSharp
             this.panel1.Controls.Add(this.label30);
             this.panel1.Controls.Add(this.label27);
             this.panel1.Controls.Add(this.fftRangeTrackBar);
-            this.panel1.Location = new System.Drawing.Point(0, 2);
+            this.panel1.Location = new System.Drawing.Point(0, -3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(211, 72);
             this.panel1.TabIndex = 42;
@@ -1905,24 +1912,24 @@ namespace SDRSharp
             // 
             // tabPage7
             // 
+            this.tabPage7.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage7.Controls.Add(this.displayCollapsiblePanel);
             this.tabPage7.Controls.Add(this.controlPanel);
             this.tabPage7.Location = new System.Drawing.Point(4, 25);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1210, 78);
+            this.tabPage7.Size = new System.Drawing.Size(1210, 69);
             this.tabPage7.TabIndex = 7;
             this.tabPage7.Text = "Plugins";
-            this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // displayCollapsiblePanel
             // 
-            this.displayCollapsiblePanel.ExpandedHeight = 350;
-            this.displayCollapsiblePanel.Location = new System.Drawing.Point(65, 11);
+            this.displayCollapsiblePanel.ExpandedHeight = 48;
+            this.displayCollapsiblePanel.Location = new System.Drawing.Point(0, 0);
             this.displayCollapsiblePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.displayCollapsiblePanel.Name = "displayCollapsiblePanel";
             this.displayCollapsiblePanel.NextPanel = null;
             this.displayCollapsiblePanel.PanelTitle = "Panel title";
-            this.displayCollapsiblePanel.Size = new System.Drawing.Size(975, 375);
+            this.displayCollapsiblePanel.Size = new System.Drawing.Size(975, 73);
             this.displayCollapsiblePanel.TabIndex = 0;
             // 
             // controlPanel
@@ -1932,9 +1939,9 @@ namespace SDRSharp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.controlPanel.AutoScroll = true;
             this.controlPanel.AutoSize = true;
-            this.controlPanel.Location = new System.Drawing.Point(6, 13);
+            this.controlPanel.Location = new System.Drawing.Point(8, 0);
             this.controlPanel.Name = "controlPanel";
-            this.controlPanel.Size = new System.Drawing.Size(1044, 415);
+            this.controlPanel.Size = new System.Drawing.Size(1044, 406);
             this.controlPanel.TabIndex = 1;
             this.controlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -1948,47 +1955,6 @@ namespace SDRSharp
             this.imageList1.Images.SetKeyName(3, "system-settings.png");
             this.imageList1.Images.SetKeyName(4, "test.png");
             this.imageList1.Images.SetKeyName(5, "bookmark-new-list-4.png");
-            // 
-            // button2
-            // 
-            this.button2.Enabled = false;
-            this.button2.Image = global::SDRSharp.Properties.Resources.arrow_right_double;
-            this.button2.Location = new System.Drawing.Point(149, 66);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(43, 39);
-            this.button2.TabIndex = 44;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Enabled = false;
-            this.button1.Image = global::SDRSharp.Properties.Resources.arrow_left_double1;
-            this.button1.Location = new System.Drawing.Point(100, 66);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(43, 39);
-            this.button1.TabIndex = 43;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // RecordBtn
-            // 
-            this.RecordBtn.Enabled = false;
-            this.RecordBtn.Image = global::SDRSharp.Properties.Resources._2014033006462198_easyicon_net_32;
-            this.RecordBtn.Location = new System.Drawing.Point(51, 65);
-            this.RecordBtn.Name = "RecordBtn";
-            this.RecordBtn.Size = new System.Drawing.Size(43, 40);
-            this.RecordBtn.TabIndex = 42;
-            this.RecordBtn.UseVisualStyleBackColor = true;
-            // 
-            // PlayBtn
-            // 
-            this.PlayBtn.Image = global::SDRSharp.Properties.Resources.Play_1_Hot_Icon_321;
-            this.PlayBtn.Location = new System.Drawing.Point(2, 65);
-            this.PlayBtn.Name = "PlayBtn";
-            this.PlayBtn.Size = new System.Drawing.Size(43, 39);
-            this.PlayBtn.TabIndex = 41;
-            this.PlayBtn.UseVisualStyleBackColor = true;
-            this.PlayBtn.Click += new System.EventHandler(this.PlayBtn_Click);
             // 
             // vfoFrequencyEdit
             // 
@@ -2008,107 +1974,62 @@ namespace SDRSharp
             this.vfoFrequencyEdit.FrequencyChanging += new System.EventHandler<SDRSharp.FrequencyEdit.FrequencyChangingEventArgs>(this.vfoFrequencyEdit_FrequencyChanging);
             this.vfoFrequencyEdit.Load += new System.EventHandler(this.vfoFrequencyEdit_Load);
             this.vfoFrequencyEdit.VisibleChanged += new System.EventHandler(this.vfoFrequencyEdit_VisibleChanged);
+
             // 
-            // ribbonOrbMenuItem1
+            // panel4
             // 
-            this.ribbonOrbMenuItem1.AltKey = "sdf";
-            this.ribbonOrbMenuItem1.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
-            this.ribbonOrbMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem1.Image")));
-            this.ribbonOrbMenuItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem1.SmallImage")));
-            this.ribbonOrbMenuItem1.Text = "ribbonOrbMenuItem1";
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
+            this.panel4.BackgroundImage = global::SDRSharp.Properties.Resources.media_playback_start;
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel4.Location = new System.Drawing.Point(7, 60);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(32, 32);
+            this.panel4.TabIndex = 45;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint_1);
+            this.panel4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseClick);
             // 
-            // ribbonButton1
+            // panel5
             // 
-            this.ribbonButton1.AltKey = "dfdsf";
-            this.ribbonButton1.Image = global::SDRSharp.Properties.Resources.Play_1_Hot_Icon_32;
-            this.ribbonButton1.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Compact;
-            this.ribbonButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton1.SmallImage")));
-            this.ribbonButton1.Text = "ribbonButton1";
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.BackgroundImage = global::SDRSharp.Properties.Resources.media_record;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel5.Location = new System.Drawing.Point(45, 60);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(32, 32);
+            this.panel5.TabIndex = 45;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint_1);
+            this.panel5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseClick);
             // 
-            // ribbonTab2
+            // panel6
             // 
-            this.ribbonTab2.Text = "ribbonTab2";
+            this.panel6.BackgroundImage = global::SDRSharp.Properties.Resources.media_seek_backward;
+            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel6.Location = new System.Drawing.Point(83, 60);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(32, 32);
+            this.panel6.TabIndex = 45;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint_1);
+            this.panel6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseClick);
             // 
-            // ribbonButton9
+            // panel7
             // 
-            this.ribbonButton9.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton9.Image")));
-            this.ribbonButton9.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton9.SmallImage")));
-            // 
-            // ribbonButton8
-            // 
-            this.ribbonButton8.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.Image")));
-            this.ribbonButton8.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.SmallImage")));
-            // 
-            // ribbonButton7
-            // 
-            this.ribbonButton7.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.Image")));
-            this.ribbonButton7.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.SmallImage")));
-            // 
-            // ribbonButton6
-            // 
-            this.ribbonButton6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.Image")));
-            this.ribbonButton6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.SmallImage")));
-            // 
-            // ribbonButton5
-            // 
-            this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
-            this.ribbonButton5.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.SmallImage")));
-            // 
-            // ribbonButtonList1
-            // 
-            this.ribbonButtonList1.Buttons.Add(this.ribbonButton5);
-            this.ribbonButtonList1.Buttons.Add(this.ribbonButton6);
-            this.ribbonButtonList1.Buttons.Add(this.ribbonButton7);
-            this.ribbonButtonList1.Buttons.Add(this.ribbonButton8);
-            this.ribbonButtonList1.Buttons.Add(this.ribbonButton9);
-            this.ribbonButtonList1.ButtonsSizeMode = System.Windows.Forms.RibbonElementSizeMode.Compact;
-            this.ribbonButtonList1.FlowToBottom = false;
-            this.ribbonButtonList1.ItemsSizeInDropwDownMode = new System.Drawing.Size(7, 5);
-            // 
-            // ribbonButton14
-            // 
-            this.ribbonButton14.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton14.Image")));
-            this.ribbonButton14.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton14.SmallImage")));
-            // 
-            // ribbonButton13
-            // 
-            this.ribbonButton13.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton13.Image")));
-            this.ribbonButton13.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton13.SmallImage")));
-            // 
-            // ribbonButton12
-            // 
-            this.ribbonButton12.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton12.Image")));
-            this.ribbonButton12.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton12.SmallImage")));
-            // 
-            // ribbonButton11
-            // 
-            this.ribbonButton11.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.Image")));
-            this.ribbonButton11.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.SmallImage")));
-            // 
-            // ribbonButton10
-            // 
-            this.ribbonButton10.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton10.Image")));
-            this.ribbonButton10.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton10.SmallImage")));
-            // 
-            // ribbonButtonList2
-            // 
-            this.ribbonButtonList2.Buttons.Add(this.ribbonButton10);
-            this.ribbonButtonList2.Buttons.Add(this.ribbonButton11);
-            this.ribbonButtonList2.Buttons.Add(this.ribbonButton12);
-            this.ribbonButtonList2.Buttons.Add(this.ribbonButton13);
-            this.ribbonButtonList2.Buttons.Add(this.ribbonButton14);
-            this.ribbonButtonList2.ButtonsSizeMode = System.Windows.Forms.RibbonElementSizeMode.Compact;
-            this.ribbonButtonList2.FlowToBottom = false;
-            this.ribbonButtonList2.ItemsSizeInDropwDownMode = new System.Drawing.Size(7, 5);
+            this.panel7.BackgroundImage = global::SDRSharp.Properties.Resources.media_seek_forward;
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel7.Location = new System.Drawing.Point(121, 60);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(32, 32);
+            this.panel7.TabIndex = 45;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint_1);
+            this.panel7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseClick);
             // 
             // MainForm
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1299, 758);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.RecordBtn);
-            this.Controls.Add(this.PlayBtn);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.FrequencyUpDown);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tabControl1);
@@ -2121,7 +2042,7 @@ namespace SDRSharp
             this.MinimumSize = new System.Drawing.Size(840, 462);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "SDR# - SEB TESTING";
+            this.Text = "SDR#";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.MainForm_Closing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
@@ -2270,16 +2191,12 @@ namespace SDRSharp
         private TrackBar sDecayTrackBar;
         private Label label26;
         private Label label24;
-        private Button PlayBtn;
         private Label label30;
         private Panel panel2;
         private Panel panel1;
         private Label label31;
         private Label label29;
-        private Button RecordBtn;
         private ImageList imageList1;
-        private Button button1;
-        private Button button2;
         private TabPage tabPage2;
         private Label label37;
         private Label label39;
@@ -2305,7 +2222,6 @@ namespace SDRSharp
         private NumericUpDown ScanDb;
         private Label label43;
         private TabPage tabPage7;
-        private CollapsiblePanel.CollapsiblePanel displayCollapsiblePanel;
         private Panel controlPanel;
         private RibbonTab ribbonTab2;
         private RibbonButton ribbonButton9;
@@ -2342,5 +2258,10 @@ namespace SDRSharp
         private CheckBox frequencyShiftCheckBox;
         private ComboBox iqSourceComboBox;
         private Button configureSourceButton;
+        private CollapsiblePanel.CollapsiblePanel displayCollapsiblePanel;
+        private Panel panel4;
+        private Panel panel5;
+        private Panel panel6;
+        private Panel panel7;
     }
 }

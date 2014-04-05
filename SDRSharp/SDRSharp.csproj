@@ -143,6 +143,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mixer.ico" />
+    <None Include="Resources\media-record.png" />
+    <None Include="Resources\media-seek-forward.png" />
+    <None Include="Resources\media-seek-backward.png" />
+    <None Include="Resources\media-playback-stop.png" />
+    <None Include="Resources\media-playback-start.png" />
+    <None Include="Resources\Actions-media-playback-stop-icon.png" />
+    <None Include="Resources\Button-Pause-icon1.png" />
+    <None Include="Resources\Button-Stop-icon.png" />
+    <None Include="Resources\Button-Rewind-icon.png" />
+    <None Include="Resources\Button-Play-icon.png" />
+    <None Include="Resources\Button-Pause-icon.png" />
+    <None Include="Resources\Button-Fast-Forward-icon.png" />
+    <None Include="Resources\media-playback-stop-7.png" />
     <None Include="Resources\arrow-right-double.png" />
     <None Include="Resources\arrow-left-double1.png" />
     <None Include="Resources\arrow-left-double.png" />

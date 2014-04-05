@@ -63,46 +63,6 @@ namespace SDRSharp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _2014033006462198_easyicon_net_32 {
-            get {
-                object obj = ResourceManager.GetObject("2014033006462198_easyicon_net_32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow_left_double {
-            get {
-                object obj = ResourceManager.GetObject("arrow-left-double", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow_left_double1 {
-            get {
-                object obj = ResourceManager.GetObject("arrow-left-double1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow_right_double {
-            get {
-                object obj = ResourceManager.GetObject("arrow-right-double", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap configure_4 {
             get {
                 object obj = ResourceManager.GetObject("configure-4", resourceCulture);
@@ -113,9 +73,9 @@ namespace SDRSharp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Play_1_Hot_Icon_32 {
+        internal static System.Drawing.Bitmap media_playback_start {
             get {
-                object obj = ResourceManager.GetObject("Play_1_Hot_Icon_32", resourceCulture);
+                object obj = ResourceManager.GetObject("media-playback-start", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +83,9 @@ namespace SDRSharp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Play_1_Hot_Icon_321 {
+        internal static System.Drawing.Bitmap media_playback_stop {
             get {
-                object obj = ResourceManager.GetObject("Play_1_Hot_Icon_321", resourceCulture);
+                object obj = ResourceManager.GetObject("media-playback-stop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +93,29 @@ namespace SDRSharp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Settings_Icon_32 {
+        internal static System.Drawing.Bitmap media_record {
             get {
-                object obj = ResourceManager.GetObject("Settings_Icon_32", resourceCulture);
+                object obj = ResourceManager.GetObject("media-record", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap media_seek_backward {
+            get {
+                object obj = ResourceManager.GetObject("media-seek-backward", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap media_seek_forward {
+            get {
+                object obj = ResourceManager.GetObject("media-seek-forward", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
