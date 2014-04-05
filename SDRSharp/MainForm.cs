@@ -1116,6 +1116,7 @@ namespace SDRSharp
             {
                 StopRadio();
                 _waveFile = openDlg.FileName;
+               
             }
         }
 
@@ -1462,7 +1463,7 @@ namespace SDRSharp
             {
                 _modeStates[_vfo.DetectorType] = GetModeState();
             }
-
+            
             if (wfmRadioButton.Checked)
             {
                 _vfo.DetectorType = DetectorType.WFM;
@@ -2388,6 +2389,104 @@ namespace SDRSharp
         private void unityGainCheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nfmRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void nfmRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void wfmRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            nfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void amRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            nfmRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void cwRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            nfmRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void lsbRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            nfmRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void dsbRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            nfmRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void usbRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            nfmRadioButton.Checked = false;
+            rawRadioButton.Checked = false;
+        }
+
+        private void rawRadioButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            amRadioButton.Checked = false;
+            wfmRadioButton.Checked = false;
+            dsbRadioButton.Checked = false;
+            cwRadioButton.Checked = false;
+            lsbRadioButton.Checked = false;
+            usbRadioButton.Checked = false;
+            nfmRadioButton.Checked = false;
         }
     }
 }
