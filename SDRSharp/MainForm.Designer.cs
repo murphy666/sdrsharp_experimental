@@ -697,7 +697,7 @@ namespace SDRSharp
             0,
             0,
             0});
-            this.FrequencyUpDown.Location = new System.Drawing.Point(10, 16);
+            this.FrequencyUpDown.Location = new System.Drawing.Point(2, 11);
             this.FrequencyUpDown.Maximum = new decimal(new int[] {
             276447232,
             23283,
@@ -730,11 +730,11 @@ namespace SDRSharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(266, 38);
+            this.label2.Location = new System.Drawing.Point(263, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 32);
+            this.label2.Size = new System.Drawing.Size(45, 32);
             this.label2.TabIndex = 35;
-            this.label2.Text = "KHz";
+            this.label2.Text = "Hz";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label9
